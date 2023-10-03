@@ -20,8 +20,8 @@ public class ActivityTwo extends Activity {
         String message = mEditText.getText().toString();
         Intent intent = new Intent(ActivityTwo.this, MainActivity.class);
         intent.putExtra("message",message);
-//        startActivity(intent);
-        setResult(2, intent);
-        finish();
+        startActivity(intent);
+//        setResult(2, intent);
+//        finish();
     }
 }

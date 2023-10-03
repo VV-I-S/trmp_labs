@@ -21,9 +21,9 @@ public class ActivityThree extends AppCompatActivity {
 
     public void back(View view) {
         Intent intent = new Intent(ActivityThree.this, MainActivity.class);
-        startActivity(intent);
-//        setResult(3, intent);
-//        finish();
+        //startActivity(intent);
+        setResult(3, intent);
+        finish();
     }
 }
 
