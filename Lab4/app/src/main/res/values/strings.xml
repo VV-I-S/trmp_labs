@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Lab4BorisovaKA</string>
+    <string name="Accelerometer">Accelerometer</string>
+    <string name="x">X</string>
+    <string name="y">Y</string>
+    <string name="z">Z</string>
+    <string name="magnetic">Magnetic</string>
+    <string name="proximity">Proximity</string>
+    <string name="light">light</string>
+</resources>
